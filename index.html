@@ -80,7 +80,7 @@
       opacity: 1;
     }
 
-    .chatbot {
+   .chatbot {
       background: #fff;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -89,7 +89,7 @@
       font-family: sans-serif;
       opacity: 0;
       width: 600px;
-      height: 800px;
+      max-height: 90%;
       pointer-events: none;
       transform: scale(0.5);
       transform-origin: bottom right;
@@ -101,7 +101,7 @@
       bottom: 6rem;
       z-index: 999;
     }
-
+    
     body.show-chatbot .chatbot {
       opacity: 1;
       pointer-events: auto;
@@ -314,7 +314,7 @@
 
       .chatbot {
         width: 100vw;
-        min-height: 90%;
+        min-height: 90vh;
         top: 0;
         left: 0;
         right: 0;
