@@ -606,7 +606,7 @@
     const messageElement = chatElement.querySelector("p");
 
     try {
-        const response = await fetch('https://aibee-server-production.up.railway.app/api/chat', {
+        const response = await fetch('https://aibee-chatbot-server-production.up.railway.app/api/chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -858,7 +858,7 @@ document.getElementById('submit-btn').addEventListener('click', () => {
     };
 
     // Sending data via POST request to your backend
-    fetch('https://aibee-server-production.up.railway.app/send-email', {
+    fetch('https://aibee-chatbot-server-production.up.railway.app/send-email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
